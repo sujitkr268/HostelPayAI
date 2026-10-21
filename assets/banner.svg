@@ -1,0 +1,105 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b132b"/>
+      <stop offset="0.55" stop-color="#152347"/>
+      <stop offset="1" stop-color="#0e1c3f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#6366f1"/>
+    </linearGradient>
+    <radialGradient id="glowCyan" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowIndigo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#6366f1" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="420" rx="24" fill="url(#bg)"/>
+  <circle cx="1060" cy="40" r="260" fill="url(#glowCyan)"/>
+  <circle cx="140" cy="420" r="240" fill="url(#glowIndigo)"/>
+  <circle cx="620" cy="10" r="180" fill="url(#glowIndigo)" opacity="0.35"/>
+
+  <!-- ======================= LEFT COLUMN ======================= -->
+  <!-- top pill -->
+  <rect x="70" y="52" width="330" height="30" rx="15" fill="#22d3ee" fill-opacity="0.10" stroke="#22d3ee" stroke-opacity="0.35"/>
+  <text x="85" y="72" font-size="13" font-weight="600" letter-spacing="1.5" fill="#67e8f9">BUILT FOR HOSTEL LIFE · ₹ INR · UPI READY</text>
+
+  <!-- brand icon -->
+  <rect x="70" y="116" width="52" height="52" rx="14" fill="url(#accent)"/>
+  <rect x="82" y="132" width="28" height="20" rx="5" fill="#ffffff"/>
+  <rect x="82" y="132" width="28" height="7" rx="3.5" fill="#e0f2fe"/>
+  <circle cx="104" cy="142" r="3" fill="#3b82f6"/>
+
+  <!-- title -->
+  <text x="138" y="165" font-size="58" font-weight="800" letter-spacing="-1" fill="#f8fafc">HostelPay</text>
+  <text x="452" y="165" font-size="58" font-weight="800" letter-spacing="-1" fill="#22d3ee">AI</text>
+  <path d="M540 118 c1.5 4 4 6.5 8 8 c-4 1.5 -6.5 4 -8 8 c-1.5 -4 -4 -6.5 -8 -8 c4 -1.5 6.5 -4 8 -8 Z" fill="#fde68a"/>
+  <path d="M556 140 c1 2.5 2.5 4 5 5 c-2.5 1 -4 2.5 -5 5 c-1 -2.5 -2.5 -4 -5 -5 c2.5 -1 4 -2.5 5 -5 Z" fill="#67e8f9" opacity="0.9"/>
+
+  <!-- tagline -->
+  <text x="70" y="228" font-size="21" font-weight="600" fill="#cbd5e1">Split hostel expenses fairly. Settle in seconds.</text>
+
+  <!-- feature bullets -->
+  <circle cx="78" cy="262" r="5" fill="#22d3ee"/>
+  <text x="94" y="267" font-size="16" fill="#cbd5e1">Penny-precise splits — equal, exact or %</text>
+  <circle cx="78" cy="294" r="5" fill="#3b82f6"/>
+  <text x="94" y="299" font-size="16" fill="#cbd5e1">AI debt simplifier — fewest possible transfers</text>
+  <circle cx="78" cy="326" r="5" fill="#6366f1"/>
+  <text x="94" y="331" font-size="16" fill="#cbd5e1">Simulated UPI settlements with receipts</text>
+
+  <!-- footer tech line -->
+  <text x="70" y="380" font-size="14" fill="#64748b">Next.js 16 · React 19 · Tailwind CSS 4 · Scoped Client-side State</text>
+
+  <!-- ======================= RIGHT MOCKUP CARD ======================= -->
+  <rect x="720" y="64" width="430" height="292" rx="18" fill="#0f1f42" fill-opacity="0.92" stroke="#94a3b8" stroke-opacity="0.18"/>
+
+  <!-- card header -->
+  <text x="744" y="104" font-size="17" font-weight="600" fill="#f8fafc">Room 204 · Tagore Hostel</text>
+  <rect x="1002" y="86" width="128" height="28" rx="14" fill="#34d399" fill-opacity="0.12" stroke="#34d399" stroke-opacity="0.4"/>
+  <text x="1066" y="104" font-size="13" font-weight="600" fill="#34d399" text-anchor="middle">owed ₹605</text>
+
+  <line x1="744" y1="122" x2="1126" y2="122" stroke="#94a3b8" stroke-opacity="0.15"/>
+
+  <!-- avatars -->
+  <circle cx="752" cy="150" r="14" fill="#6366f1"/>
+  <text x="752" y="154" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">S</text>
+  <circle cx="782" cy="150" r="14" fill="#22d3ee"/>
+  <text x="782" y="154" font-size="10" font-weight="700" fill="#0b132b" text-anchor="middle">P</text>
+  <circle cx="812" cy="150" r="14" fill="#3b82f6"/>
+  <text x="812" y="154" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">S</text>
+  <circle cx="842" cy="150" r="14" fill="#f43f5e"/>
+  <text x="842" y="154" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">G</text>
+  <circle cx="872" cy="150" r="14" fill="#1e293b" stroke="#475569"/>
+  <text x="872" y="154" font-size="10" font-weight="700" fill="#94a3b8" text-anchor="middle">+2</text>
+
+  <!-- stat cards -->
+  <rect x="744" y="176" width="118" height="56" rx="10" fill="#1e293b" fill-opacity="0.55" stroke="#94a3b8" stroke-opacity="0.14"/>
+  <text x="756" y="198" font-size="10.5" letter-spacing="1" fill="#94a3b8">OCT SPEND</text>
+  <text x="756" y="220" font-size="16" font-weight="700" fill="#f8fafc">₹5,830</text>
+
+  <rect x="870" y="176" width="118" height="56" rx="10" fill="#1e293b" fill-opacity="0.55" stroke="#94a3b8" stroke-opacity="0.14"/>
+  <text x="882" y="198" font-size="10.5" letter-spacing="1" fill="#94a3b8">YOUR SHARE</text>
+  <text x="882" y="220" font-size="16" font-weight="700" fill="#f8fafc">₹1,458</text>
+
+  <rect x="996" y="176" width="130" height="56" rx="10" fill="#1e293b" fill-opacity="0.55" stroke="#94a3b8" stroke-opacity="0.14"/>
+  <text x="1008" y="198" font-size="10.5" letter-spacing="1" fill="#94a3b8">GROUPS</text>
+  <text x="1008" y="220" font-size="16" font-weight="700" fill="#f8fafc">3 active</text>
+
+  <!-- expense rows -->
+  <circle cx="750" cy="250" r="4" fill="#22d3ee"/>
+  <text x="764" y="255" font-size="13" fill="#cbd5e1">Groceries run — ₹1,200 · 4 ways</text>
+  <circle cx="750" cy="278" r="4" fill="#3b82f6"/>
+  <text x="764" y="283" font-size="13" fill="#cbd5e1">Chai &amp; maggi corner — ₹340 · 4 ways</text>
+
+  <!-- CTA -->
+  <rect x="744" y="302" width="212" height="38" rx="10" fill="url(#accent)"/>
+  <text x="850" y="326" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">⚡ Simplify debts</text>
+  <text x="970" y="326" font-size="12" fill="#94a3b8">5 messy transfers → 3 payments</text>
+</svg>
