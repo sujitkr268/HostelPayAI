@@ -127,8 +127,17 @@ export default function QrModal({ isOpen, onClose }) {
               </svg>
             </div>
 
-            <div className="text-xs font-bold text-slate-800">{currentUser.name}</div>
-            <div className="text-[11px] text-slate-500 font-mono mt-0.5">{currentUser.upiId}</div>
+            <div className="flex items-center gap-2.5 mt-1">
+              <img
+                src={currentUser.avatar}
+                alt={currentUser.name}
+                className="w-9 h-9 rounded-full object-cover ring-2 ring-indigo-500/20"
+              />
+              <div>
+                <div className="text-xs font-bold text-slate-800">{currentUser.name}</div>
+                <div className="text-[11px] text-slate-500 font-mono mt-0.5">{currentUser.upiId}</div>
+              </div>
+            </div>
 
             <button
               onClick={handleCopy}
@@ -148,7 +157,7 @@ export default function QrModal({ isOpen, onClose }) {
             <div className="relative w-56 h-56 bg-slate-900 rounded-2xl flex flex-col items-center justify-center border-2 border-indigo-500/50 overflow-hidden shadow-inner">
               <Camera className="w-10 h-10 text-indigo-400 mb-2" />
               <div className="text-xs text-slate-300 font-medium px-4">
-                Align roommate's UPI QR code within frame
+                Align roommate&apos;s UPI QR code within frame
               </div>
               {/* Scan beam animation */}
               <div className="absolute left-0 right-0 h-1 bg-gradient-to-r from-cyan-400 to-indigo-500 shadow-lg shadow-cyan-400 animate-pulse top-1/2" />

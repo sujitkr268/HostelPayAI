@@ -12,7 +12,7 @@ export const initialCurrentUser = {
   roomNumber: "204",
   upiId: "sujit.kumar@oksbi",
   primaryBank: "SBI ****4829",
-  avatar: "/avatars/sujit-jjk.webp",
+  avatar: "/avatars/sujit-gojo.webp",
   biometricEnabled: false,
   autoApproveUnder500: true,
   notifications: {

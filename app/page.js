@@ -428,12 +428,14 @@ export default function Dashboard() {
           {/* Quick Hostel UPI ID Card */}
           <div className="bg-white rounded-2xl border border-slate-200/90 shadow-xs p-4 flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-slate-900 text-cyan-400 flex items-center justify-center">
-                <QrCode className="w-5 h-5" />
-              </div>
+              <img
+                src={currentUser.avatar}
+                alt={currentUser.name}
+                className="w-10 h-10 rounded-full object-cover ring-2 ring-cyan-400/30"
+              />
               <div>
-                <div className="text-xs font-bold text-slate-900">Your UPI ID</div>
-                <div className="text-[11px] font-mono text-slate-500">{currentUser.upiId}</div>
+                <div className="text-xs font-bold text-slate-900">{currentUser.name}</div>
+                <div className="text-[11px] font-mono text-slate-500">UPI ID · {currentUser.upiId}</div>
               </div>
             </div>
             <button

@@ -547,7 +547,7 @@ export default function AiInsightsPage() {
             </div>
 
             <p className="text-xs text-slate-600 leading-relaxed">
-              Based on Room 204's past 30 days of shared bills, here is your 3-step actionable
+              Based on Room 204&apos;s past 30 days of shared bills, here is your 3-step actionable
               budget goal for November:
             </p>
 
