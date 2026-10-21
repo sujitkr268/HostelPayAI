@@ -12,7 +12,7 @@ export const initialCurrentUser = {
   roomNumber: "204",
   upiId: "sujit.kumar@oksbi",
   primaryBank: "SBI ****4829",
-  avatar: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=256&q=80",
+  avatar: "/avatars/sujit-jjk.webp",
   biometricEnabled: false,
   autoApproveUnder500: true,
   notifications: {
@@ -32,7 +32,7 @@ export const initialRoommates = [
     phone: "+91 98111 22334",
     email: "prakalpa.sen@hit.edu.in",
     upiId: "prakalpa@okhdfc",
-    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=256&q=80",
+    avatar: "/avatars/prakalpa-f.jpg",
     role: "Roommate",
   },
   {
@@ -43,7 +43,7 @@ export const initialRoommates = [
     phone: "+91 98222 33445",
     email: "saan.ghosh@hit.edu.in",
     upiId: "saan.g@icici",
-    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=256&q=80",
+    avatar: "/avatars/saan-f.jpg",
     role: "Roommate",
   },
   {
@@ -54,7 +54,7 @@ export const initialRoommates = [
     phone: "+91 98333 44556",
     email: "garvit.sharma@hit.edu.in",
     upiId: "garvit99@axl",
-    avatar: "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=256&q=80",
+    avatar: "/avatars/garvit-m4.jpg",
     role: "Roommate",
   },
 ];
@@ -280,7 +280,7 @@ export const initialRoommateDebts = [
   {
     userId: "user-2",
     name: "Prakalpa Sen",
-    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=256&q=80",
+    avatar: "/avatars/prakalpa-f.jpg",
     upiId: "prakalpa@okhdfc",
     type: "owed_to_you", // owed_to_you | you_owe | settled
     amount: 500,
@@ -291,7 +291,7 @@ export const initialRoommateDebts = [
   {
     userId: "user-3",
     name: "Saan Ghosh",
-    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=256&q=80",
+    avatar: "/avatars/saan-f.jpg",
     upiId: "saan.g@icici",
     type: "owed_to_you",
     amount: 475,
@@ -302,7 +302,7 @@ export const initialRoommateDebts = [
   {
     userId: "user-4",
     name: "Garvit Sharma",
-    avatar: "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=256&q=80",
+    avatar: "/avatars/garvit-m4.jpg",
     upiId: "garvit99@axl",
     type: "you_owe",
     amount: 370,
