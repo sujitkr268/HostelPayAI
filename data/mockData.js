@@ -7,7 +7,7 @@ export const initialCurrentUser = {
   shortName: "Sujit K.",
   email: "sujit.kumar@hit.edu.in",
   phone: "+91 98765 43210",
-  college: "HIT Kolkata (Heritage Institute)",
+  college: "Haldia Institute of Technology (HIT)",
   hostelBlock: "Tagore Hostel, Room 204",
   roomNumber: "204",
   upiId: "sujit.kumar@oksbi",

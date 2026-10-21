@@ -15,7 +15,7 @@ export default function RegisterPage() {
     email: "",
 
     phone: "",
-    college: "HIT Haldia (Haldia Institute Of Technology+)",
+    college: "Haldia Institute of Technology (HIT)",
     hostelBlock: "Tagore Hostel",
     roomNumber: "204",
     upiId: "",

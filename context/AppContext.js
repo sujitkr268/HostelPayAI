@@ -40,11 +40,30 @@ export function AppProvider({ children }) {
         if (parsed.currentUser && parsed.currentUser.name?.includes("Rahul")) {
           localStorage.removeItem(STORAGE_KEY);
         } else {
-          if (parsed.currentUser) setCurrentUser(parsed.currentUser);
-          if (parsed.roommates) setRoommates(parsed.roommates);
+          // Avatars are not user-editable anywhere in the UI — re-bind them
+          // to the current bundled assets on load so cached state can never
+          // render stale paths (deleted files / old hotlinks) as broken images.
+          if (parsed.currentUser) {
+            setCurrentUser({ ...parsed.currentUser, avatar: initialCurrentUser.avatar });
+          }
+          if (parsed.roommates) {
+            setRoommates(
+              parsed.roommates.map((r) => {
+                const seed = initialRoommates.find((m) => m.id === r.id);
+                return seed ? { ...r, avatar: seed.avatar } : r;
+              })
+            );
+          }
+          if (parsed.roommateDebts) {
+            setRoommateDebts(
+              parsed.roommateDebts.map((d) => {
+                const seed = initialRoommateDebts.find((x) => x.userId === d.userId);
+                return seed ? { ...d, avatar: seed.avatar } : d;
+              })
+            );
+          }
           if (parsed.groups) setGroups(parsed.groups);
           if (parsed.expenses) setExpenses(parsed.expenses);
-          if (parsed.roommateDebts) setRoommateDebts(parsed.roommateDebts);
           if (parsed.settlements) setSettlements(parsed.settlements);
           if (parsed.selectedGroupId) setSelectedGroupId(parsed.selectedGroupId);
           if (typeof parsed.aiSparkleEnabled === "boolean") setAiSparkleEnabled(parsed.aiSparkleEnabled);
