@@ -1,0 +1,130 @@
+<svg width="1200" height="470" viewBox="0 0 1200 470" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1200" y2="470" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b132b"/>
+      <stop offset="0.55" stop-color="#152347"/>
+      <stop offset="1" stop-color="#0e1c3f"/>
+    </linearGradient>
+    <radialGradient id="fglowCyan" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="fglowIndigo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#6366f1" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="fglowMag" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#d946ef" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#d946ef" stop-opacity="0"/>
+    </radialGradient>
+    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="470" rx="24" fill="url(#fbg)"/>
+  <circle cx="1060" cy="40" r="250" fill="url(#fglowCyan)"/>
+  <circle cx="140" cy="430" r="230" fill="url(#fglowIndigo)"/>
+
+  <!-- header -->
+  <text x="60" y="64" font-size="15" font-weight="700" letter-spacing="2.5" fill="#67e8f9">HOW A RUPEE FLOWS</text>
+  <rect x="930" y="42" width="230" height="30" rx="15" fill="#94a3b8" fill-opacity="0.08" stroke="#94a3b8" stroke-opacity="0.25"/>
+  <text x="1045" y="61.5" font-size="12.5" fill="#94a3b8" text-anchor="middle">🗄️ localStorage keeps state</text>
+  <path d="M1045 74 C 1000 92, 940 106, 888 114" stroke="#475569" stroke-width="1.6" stroke-dasharray="4 5" fill="none"/>
+
+  <!-- top row -->
+  <rect x="60" y="110" width="230" height="110" rx="18" fill="#10204a" stroke="#22d3ee" stroke-opacity="0.4" stroke-width="1.5"/>
+  <text x="175" y="146" font-size="20" text-anchor="middle">➕</text>
+  <text x="175" y="178" font-size="13.5" font-weight="700" fill="#f8fafc" text-anchor="middle">Add Expense</text>
+  <text x="175" y="198" font-size="11" fill="#94a3b8" text-anchor="middle">₹1,200 · 4 roommates</text>
+
+  <rect x="360" y="110" width="230" height="110" rx="18" fill="#10204a" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1.5"/>
+  <text x="475" y="146" font-size="20" text-anchor="middle">✂️</text>
+  <text x="475" y="178" font-size="13.5" font-weight="700" fill="#f8fafc" text-anchor="middle">Split Engine</text>
+  <text x="475" y="198" font-size="11" fill="#94a3b8" text-anchor="middle">equal · exact · % · penny-perfect</text>
+
+  <rect x="660" y="110" width="230" height="110" rx="18" fill="#10204a" stroke="#6366f1" stroke-opacity="0.4" stroke-width="1.5"/>
+  <text x="775" y="146" font-size="20" text-anchor="middle">🧠</text>
+  <text x="775" y="178" font-size="13.5" font-weight="700" fill="#f8fafc" text-anchor="middle">AppContext</text>
+  <text x="775" y="198" font-size="11" fill="#94a3b8" text-anchor="middle">single source of truth</text>
+
+  <!-- bottom row (serpentine right-to-left) -->
+  <rect x="660" y="290" width="230" height="110" rx="18" fill="#10204a" stroke="#8b5cf6" stroke-opacity="0.4" stroke-width="1.5"/>
+  <text x="775" y="326" font-size="20" text-anchor="middle">⚖️</text>
+  <text x="775" y="358" font-size="13.5" font-weight="700" fill="#f8fafc" text-anchor="middle">Debt Graph</text>
+  <text x="775" y="378" font-size="11" fill="#94a3b8" text-anchor="middle">you owe ↔ owes you</text>
+
+  <rect x="360" y="290" width="230" height="110" rx="18" fill="#10204a" stroke="#d946ef" stroke-opacity="0.45" stroke-width="1.5"/>
+  <circle cx="475" cy="345" r="84" fill="url(#fglowMag)">
+    <animate attributeName="opacity" values="0.22;0.06;0.22" dur="2.6s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="84;104;84" dur="2.6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="475" y="326" font-size="20" text-anchor="middle">🤖</text>
+  <text x="475" y="358" font-size="13.5" font-weight="700" fill="#f8fafc" text-anchor="middle">AI Simplifier</text>
+  <text x="475" y="378" font-size="11" fill="#94a3b8" text-anchor="middle">fewest possible transfers</text>
+  <rect x="392" y="258" width="166" height="26" rx="13" fill="#d946ef" fill-opacity="0.12" stroke="#d946ef" stroke-opacity="0.45"/>
+  <text x="475" y="275.5" font-size="10.5" font-weight="700" letter-spacing="1" fill="#f0abfc" text-anchor="middle">✨ ONE-TAP AI FIX</text>
+  <animateTransform attributeName="transform" type="translate" values="0 0; 0 -4; 0 0" dur="3s" repeatCount="indefinite"/>
+
+  <rect x="60" y="290" width="230" height="110" rx="18" fill="#10204a" stroke="#34d399" stroke-opacity="0.4" stroke-width="1.5"/>
+  <text x="175" y="326" font-size="20" text-anchor="middle">💸</text>
+  <text x="175" y="358" font-size="13.5" font-weight="700" fill="#f8fafc" text-anchor="middle">Settle Up</text>
+  <text x="175" y="378" font-size="11" fill="#94a3b8" text-anchor="middle">UPI QR · receipts</text>
+  <rect x="72" y="388" width="204" height="5" rx="2.5" fill="#1e293b"/>
+  <rect x="72" y="388" width="60" height="5" rx="2.5" fill="#34d399" fill-opacity="0.85">
+    <animate attributeName="width" values="60;276" dur="2.4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- arrows -->
+  <g stroke="#475569" stroke-width="2.2" stroke-dasharray="7 7">
+    <line x1="292" y1="165" x2="346" y2="165" marker-end="url(#ah)">
+      <animate attributeName="stroke-dashoffset" from="14" to="0" dur="1.15s" repeatCount="indefinite"/>
+    </line>
+    <line x1="592" y1="165" x2="646" y2="165" marker-end="url(#ah)">
+      <animate attributeName="stroke-dashoffset" from="14" to="0" dur="1.15s" repeatCount="indefinite"/>
+    </line>
+    <line x1="775" y1="224" x2="775" y2="284" marker-end="url(#ah)">
+      <animate attributeName="stroke-dashoffset" from="14" to="0" dur="1.15s" repeatCount="indefinite"/>
+    </line>
+    <line x1="656" y1="345" x2="600" y2="345" marker-end="url(#ah)">
+      <animate attributeName="stroke-dashoffset" from="14" to="0" dur="1.15s" repeatCount="indefinite"/>
+    </line>
+    <line x1="356" y1="345" x2="298" y2="345" marker-end="url(#ah)">
+      <animate attributeName="stroke-dashoffset" from="14" to="0" dur="1.15s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <!-- travelling rupee coins -->
+  <g>
+    <circle r="8.5" fill="#0e1c3f" stroke="#22d3ee" stroke-width="1.6"/>
+    <text x="0" y="3.2" font-size="9.5" font-weight="700" fill="#7dd3fc" text-anchor="middle">₹</text>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.88;1" dur="1.25s" repeatCount="indefinite"/>
+    <animateMotion path="M294 165 L344 165" dur="1.25s" begin="0s" repeatCount="indefinite"/>
+  </g>
+  <g>
+    <circle r="8.5" fill="#0e1c3f" stroke="#38bdf8" stroke-width="1.6"/>
+    <text x="0" y="3.2" font-size="9.5" font-weight="700" fill="#7dd3fc" text-anchor="middle">₹</text>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.88;1" dur="1.25s" repeatCount="indefinite"/>
+    <animateMotion path="M596 165 L644 165" dur="1.25s" begin="0.25s" repeatCount="indefinite"/>
+  </g>
+  <g>
+    <circle r="8.5" fill="#0e1c3f" stroke="#6366f1" stroke-width="1.6"/>
+    <text x="0" y="3.2" font-size="9.5" font-weight="700" fill="#a5b4fc" text-anchor="middle">₹</text>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.88;1" dur="1.25s" repeatCount="indefinite"/>
+    <animateMotion path="M775 228 L775 280" dur="1.25s" begin="0.5s" repeatCount="indefinite"/>
+  </g>
+  <g>
+    <circle r="8.5" fill="#0e1c3f" stroke="#8b5cf6" stroke-width="1.6"/>
+    <text x="0" y="3.2" font-size="9.5" font-weight="700" fill="#c4b5fd" text-anchor="middle">₹</text>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.88;1" dur="1.25s" repeatCount="indefinite"/>
+    <animateMotion path="M652 345 L600 345" dur="1.25s" begin="0.75s" repeatCount="indefinite"/>
+  </g>
+  <g>
+    <circle r="8.5" fill="#0e1c3f" stroke="#d946ef" stroke-width="1.6"/>
+    <text x="0" y="3.2" font-size="9.5" font-weight="700" fill="#f0abfc" text-anchor="middle">₹</text>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.88;1" dur="1.25s" repeatCount="indefinite"/>
+    <animateMotion path="M352 345 L298 345" dur="1.25s" begin="1s" repeatCount="indefinite"/>
+  </g>
+
+  <text x="600" y="444" font-size="12.5" fill="#64748b" text-anchor="middle">one expense → fair splits → clean debts → AI fix → settled — zero drama</text>
+</svg>
